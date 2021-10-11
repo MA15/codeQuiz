@@ -83,7 +83,7 @@ alert("Finished");
 }
 //take off time for wrong answer
 function subtractTime() {
-timeLeft-=10;
+timeLeft-=15;
 } startTimer();
 document.getElementById("wrongAnswer").addEventListener("click",subtractTime);
 
